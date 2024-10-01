@@ -1,0 +1,60 @@
+/* Reseteo de márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    background-color: #0f0f2d; /* Color oscuro */
+    padding: 20px 0;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.4);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo */
+.logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: #4a90e2; /* Color azul claro */
+    border-bottom: 2px solid #4a90e2; /* Subrayado en azul cuando está activo */
+}
